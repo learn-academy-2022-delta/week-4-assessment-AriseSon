@@ -70,6 +70,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   end
 
 
+
 ## Looking Ahead: Terms for Next Week
 
 1. Instance Variable: 
