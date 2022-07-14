@@ -10,8 +10,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Your answer: Props in react is a keyword. Props is used to pass information from one arguement to the next. 
 
   Researched answer:
+  
+  Props in React are used to pass data and behavior to another component. Props only can be passed in one direction from parent component to child component.
 
-  Props short for properties is a keyword in React for passing information from one component to another. Props are only passed in one direction, from parent to child and cannot be updated, they are "read only.
 
 2. What is a DOM event?
 
@@ -19,16 +20,20 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Researched answer:
 
-  DOM events are (MouseEvent), (TouchEvent) and (KeyboardEvent). The DOM is always listening for changes. As the user moves their mouse across the screen and or touch their keyboard, the DOM reacts by changing the view to represent the cursor's position.
+  DOM events are (MouseEvents), (TouchEvent) and (keyboardEvent). The Document Odject Model is always active, listening for changes from the user. These interactions happen when the mouse and keyboard are used to operate web applications.
+
+  Developers use event listeners to  HTML and JSX tags that will wait for specific events to occur. onClick and onChange are examples of event listeners. 
 
 
 3. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer: OPP is computer language that is odject structured like Ruby. Its different from functional because OOP is written for human understading.
+  Your answer: 
+  
+  OPP is computer language that is odject structured like Ruby. Its different from functional because OOP is written for human understading.
 
   Researched answer:
-
-  Object Oriented Programming (OOP) is a computer programming model that organizes software design around data, or objects unlike, functional programming which require logic.
+  
+  Object Oriented Programming, refered to as OOP is a computer programming model that use classes as blueprints for objects. Objects are the structure of building blocks of Ruby code. Everything in Ruby is an object and have two main properties, states and behaviours.   
 
 
 4. What is the difference between a Float and an Integer in Ruby?
@@ -39,7 +44,10 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Researched answer:
 
-  The difference between a Float and a Integer, a float in a Ruby program is a number that contains a decimal point. Ruby will consider any number written without decimals as an integer and any number written with decimals as a float. 
+  The difference between a Float and a Integer, a Float in a Ruby program is a number that have a decimal point. EX.. 8.5, 7.5, 5.1
+
+  An Interger in a Ruby program is a whole number. EX.. 85, 7, 5
+
 
 5. Ruby has an implicit return. What does that mean?
 
@@ -50,7 +58,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Researched answer:
 
   Implicit returns means that if a return is the last expression in a path of execution, there's no need for the return keyword.
-  
+  EX OF RETURN              
+  def sports
+    return basketball
+  end
+
+  EX WITHOUT RETURN
+
+  def sports
+     basketball
+  end
+
 
 ## Looking Ahead: Terms for Next Week
 
